@@ -44,11 +44,8 @@
             this.skinButton4 = new CCWin.SkinControl.SkinButton();
             this.skinButton5 = new CCWin.SkinControl.SkinButton();
             this.skinButton6 = new CCWin.SkinControl.SkinButton();
-            this.skinPictureBox2 = new CCWin.SkinControl.SkinPictureBox();
-            this.skinLabel8 = new CCWin.SkinControl.SkinLabel();
             ((System.ComponentModel.ISupportInitialize)(this.skinPictureBox1)).BeginInit();
             this.skinMenuStrip2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.skinPictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // skinPictureBox1
@@ -168,7 +165,7 @@
             this.skinButton1.DownBack = null;
             this.skinButton1.FadeGlow = false;
             this.skinButton1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.skinButton1.Location = new System.Drawing.Point(327, 75);
+            this.skinButton1.Location = new System.Drawing.Point(89, 118);
             this.skinButton1.MouseBack = null;
             this.skinButton1.Name = "skinButton1";
             this.skinButton1.NormlBack = null;
@@ -185,7 +182,7 @@
             this.skinButton2.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinButton2.DownBack = null;
             this.skinButton2.ForeColor = System.Drawing.Color.White;
-            this.skinButton2.Location = new System.Drawing.Point(479, 75);
+            this.skinButton2.Location = new System.Drawing.Point(271, 118);
             this.skinButton2.MouseBack = null;
             this.skinButton2.Name = "skinButton2";
             this.skinButton2.NormlBack = null;
@@ -202,7 +199,7 @@
             this.skinButton3.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinButton3.DownBack = null;
             this.skinButton3.ForeColor = System.Drawing.Color.White;
-            this.skinButton3.Location = new System.Drawing.Point(327, 151);
+            this.skinButton3.Location = new System.Drawing.Point(89, 219);
             this.skinButton3.MouseBack = null;
             this.skinButton3.Name = "skinButton3";
             this.skinButton3.NormlBack = null;
@@ -219,7 +216,7 @@
             this.skinButton4.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinButton4.DownBack = null;
             this.skinButton4.ForeColor = System.Drawing.Color.White;
-            this.skinButton4.Location = new System.Drawing.Point(479, 151);
+            this.skinButton4.Location = new System.Drawing.Point(446, 118);
             this.skinButton4.MouseBack = null;
             this.skinButton4.Name = "skinButton4";
             this.skinButton4.NormlBack = null;
@@ -236,7 +233,7 @@
             this.skinButton5.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinButton5.DownBack = null;
             this.skinButton5.ForeColor = System.Drawing.Color.White;
-            this.skinButton5.Location = new System.Drawing.Point(327, 229);
+            this.skinButton5.Location = new System.Drawing.Point(268, 219);
             this.skinButton5.MouseBack = null;
             this.skinButton5.Name = "skinButton5";
             this.skinButton5.NormlBack = null;
@@ -252,7 +249,7 @@
             this.skinButton6.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinButton6.DownBack = null;
             this.skinButton6.ForeColor = System.Drawing.Color.White;
-            this.skinButton6.Location = new System.Drawing.Point(479, 229);
+            this.skinButton6.Location = new System.Drawing.Point(446, 219);
             this.skinButton6.MouseBack = null;
             this.skinButton6.Name = "skinButton6";
             this.skinButton6.NormlBack = null;
@@ -262,29 +259,6 @@
             this.skinButton6.UseVisualStyleBackColor = false;
             this.skinButton6.Click += new System.EventHandler(this.skinButton6_Click);
             // 
-            // skinPictureBox2
-            // 
-            this.skinPictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.skinPictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("skinPictureBox2.BackgroundImage")));
-            this.skinPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.skinPictureBox2.Location = new System.Drawing.Point(71, 104);
-            this.skinPictureBox2.Name = "skinPictureBox2";
-            this.skinPictureBox2.Size = new System.Drawing.Size(219, 183);
-            this.skinPictureBox2.TabIndex = 5;
-            this.skinPictureBox2.TabStop = false;
-            // 
-            // skinLabel8
-            // 
-            this.skinLabel8.AutoSize = true;
-            this.skinLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.skinLabel8.BorderColor = System.Drawing.Color.White;
-            this.skinLabel8.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinLabel8.Location = new System.Drawing.Point(421, 292);
-            this.skinLabel8.Name = "skinLabel8";
-            this.skinLabel8.Size = new System.Drawing.Size(195, 17);
-            this.skinLabel8.TabIndex = 38;
-            this.skinLabel8.Text = "copyright @2016 守望网络工作室";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -293,14 +267,12 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(616, 309);
-            this.Controls.Add(this.skinLabel8);
             this.Controls.Add(this.skinButton6);
             this.Controls.Add(this.skinButton5);
             this.Controls.Add(this.skinButton4);
             this.Controls.Add(this.skinButton3);
             this.Controls.Add(this.skinButton2);
             this.Controls.Add(this.skinButton1);
-            this.Controls.Add(this.skinPictureBox2);
             this.Controls.Add(this.skinLabel1);
             this.Controls.Add(this.skinPictureBox1);
             this.Controls.Add(this.skinMenuStrip2);
@@ -310,7 +282,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.skinPictureBox1)).EndInit();
             this.skinMenuStrip2.ResumeLayout(false);
             this.skinMenuStrip2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.skinPictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -332,7 +303,5 @@
         private CCWin.SkinControl.SkinButton skinButton5;
         private CCWin.SkinControl.SkinButton skinButton6;
         private System.Windows.Forms.ToolStripMenuItem 登出ToolStripMenuItem;
-        private CCWin.SkinControl.SkinPictureBox skinPictureBox2;
-        private CCWin.SkinControl.SkinLabel skinLabel8;
     }
 }
