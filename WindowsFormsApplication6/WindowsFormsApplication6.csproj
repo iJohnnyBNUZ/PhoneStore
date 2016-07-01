@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B92905ED-05D8-48DD-8BBB-8BFE0D64A6DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication6</RootNamespace>
+    <AssemblyName>WindowsFormsApplication6</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin">
+      <HintPath>..\..\..\..\..\Desktop\CSkin 16.1.14.2\CSkin 4.0\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="DMSkin">
+      <HintPath>..\..\..\..\..\Desktop\DMSkin.DLL B100\DMSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Log_Select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log_Select.Designer.cs">
+      <DependentUpon>Log_Select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phone_buying.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phone_buying.Designer.cs">
+      <DependentUpon>Phone_buying.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order_management.Designer.cs">
+      <DependentUpon>Order_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirm.Designer.cs">
+      <DependentUpon>confirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phone_researching.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phone_researching.Designer.cs">
+      <DependentUpon>Phone_researching.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="research_success.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="research_success.Designer.cs">
+      <DependentUpon>research_success.cs</DependentUpon>
+    </Compile>
+    <Compile Include="revise failed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="revise failed.Designer.cs">
+      <DependentUpon>revise failed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Revise_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Revise_info.Designer.cs">
+      <DependentUpon>Revise_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="revise_success.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="revise_success.Designer.cs">
+      <DependentUpon>revise_success.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="confirm.resx">
+      <DependentUpon>confirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log_Select.resx">
+      <DependentUpon>Log_Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phone_buying.resx">
+      <DependentUpon>Phone_buying.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order_management.resx">
+      <DependentUpon>Order_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phone_researching.resx">
+      <DependentUpon>Phone_researching.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="research_success.resx">
+      <DependentUpon>research_success.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="revise failed.resx">
+      <DependentUpon>revise failed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Revise_info.resx">
+      <DependentUpon>Revise_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="revise_success.resx">
+      <DependentUpon>revise_success.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
